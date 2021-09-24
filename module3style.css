@@ -1,0 +1,34 @@
+body{
+  background-color:
+  black;}
+
+p{
+  font-family:"Trebuchet MS", sans-serif;
+  color: orange;
+  font-size: 30px;}
+
+
+#greenguy{
+  color: limegreen;
+  font-weight: 700;
+  text-align: center;}
+
+
+
+#redtext{
+  color: red;
+  font-size: 15px;
+  vertical-align: super;}
+
+#purpletext{
+  color: magenta;
+  text-align: right;}
+
+
+
+#yellowcaps{
+  color: yellow;
+  font-style: italic;
+  text-transform: uppercase;}
+
+  display= inline
