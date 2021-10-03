@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+}
+
+div#whitebox{
+  margin-top: 15%;
+  margin-right: 0px;
+  margin-bottom: 15%;
+  margin-left: 0px;
+  border-top: white 15px solid;
+  border-bottom: white 30px solid;
+  border-left: white 1px solid;
+  background-color: green;
+}
+
+
+div#dashedbox{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-top: black 4px dashed;
+  border-bottom: black 4px dashed;
+  border-left: black 4px dashed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  }
+
+
+div p{
+      font-size: 20px;
+    }
+
+p#redtop{
+  color: red;
+}
+
+p#greenbottom{
+  color: darkgreen;
+}
+
+p#purpletext{
+  color: purple;
+  margin-bottom: 3px;
+}
