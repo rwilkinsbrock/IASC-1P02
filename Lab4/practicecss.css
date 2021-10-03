@@ -1,0 +1,41 @@
+<--!
+p{
+  /*background-color: red;
+  color: purple;*/
+}
+p{
+  background-color: violet;
+}
+
+div p{
+  /*targe all p elements inside of divs, not neccessarily direct descendents*/
+  background-color: blue;
+}
+
+div > p {
+  /*targets all p elements that are children of divs*/
+  background-color: orange;
+
+}
+
+div + p{
+  /*targets first p after every div, not within div*/
+  background-color: red;
+}
+
+div ~ p{
+  /*targets all p after first div with some parent as said div (rarely used)*/
+  background-color: green;
+}
+-->
+
+
+
+p#paraID{
+  /*most specific*/
+
+}
+
+p.para{
+  /*more specific*/
+}
