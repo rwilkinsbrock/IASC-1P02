@@ -1,0 +1,34 @@
+body{
+  background-color: blue;
+}
+
+p{
+  color: red;
+  font-family: Arial, sans-serif;
+  margin-top: 6px;
+  margin-right: 3px;
+  margin-bottom: 6px;
+  margin-left: 3px;
+}
+
+div#outer{
+  margin-top: 130px;
+  margin-right: 130px;
+  margin-bottom: 130px;
+  margin-left: 130px;
+  border: black 5px solid;
+}
+
+div#upper{
+  margin: 20px;
+  border: green 2px dashed;
+  }
+
+
+img{
+  align-content: center;
+  margin: 0px;
+  border: pink 2px dashed;
+  padding: 10px;
+
+}
