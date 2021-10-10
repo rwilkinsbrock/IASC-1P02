@@ -1,0 +1,32 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#topleft{
+  float: left;
+  width: 280px;
+  height: 280px;
+  background-color: blue;
+}
+
+#topright{
+  float: right;
+  width: 280px;
+  height: 280px;
+  background-color: red;
+}
+
+#bottom{
+  clear: both;
+  width: 280px;
+  height: 280px;
+  background-color: yellow;
+  position: relative;
+  left:360px;
+}
