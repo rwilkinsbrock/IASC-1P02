@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+	background-color:gold;
+}
+
+.homebutton{
+  position: fixed;              /*fixed postion*/
+  right: 5%;
+  top: 10px;
+  width: 50px;
+  margin:10px;
+  border: orange 1px solid;
+  padding: 5px;
+  background-color: #FFEF7A;
+  text-align: center;
+}
+
+#wrapper{
+	width:75%;
+	margin:0 auto;
+  background-color: #FFFFCC;
+}
+
+#header{
+	height:160px;
+  width: 100%;
+	background-color: #FFE537;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1{
+  position: absolute;           /*absolute position */
+  left: 450px;
+}
+
+.orangetitle{
+  color: orangered;             /*class to change colour */
+}
+
+.anchor{
+  width: 20%;
+  margin: auto;                 /*box model*/
+  border: orange 1px solid;
+  padding: 5px;
+  background-color: #FFEF7A;
+  text-align: center;
+}
+
+.blog{
+  width:auto;
+  background-color: #FFEF7A;
+  padding: 6px;
+}
+
+.blog p{                        /* class to change font size*/
+  font-size: 1.5em;
+}
+
+img{
+  width:75%;
+  margin: 5px 12%;
+  border: orange 2px solid;
+  padding: 2px;
+}
+
+.recipebox{
+  width: auto;
+  margin:30px;
+  border: orange 2px solid;
+  background-color: #FFFFCC;
+  padding: 3px;
+}
+
+.recipebox li,h3,h4{            /* grouped selectors and class to change font*/
+  font-family: Verdana,sans-serif;
+}
+
+h2 {                            /* relative position*/
+  position: relative;
+  left: 35%;
+}
+
+.recipebox h3,h4{             /* nested selectors and class to transform text*/
+  text-transform: uppercase;
+}
